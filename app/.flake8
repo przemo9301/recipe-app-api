@@ -1,9 +1,11 @@
 
 [flake8]
 
+show-source = true
+statistics = true
+
  exclude =
     migrations,
     __pycache__,
     manage.py,
     settings.py
-    
